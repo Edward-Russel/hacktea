@@ -9,9 +9,6 @@
 ```
 git clone https://github.com/Edward-Russel/hacktea.git
 ```
-Далее вводим свой ник на GitHub и access token вместо пароля.
-
-![](assets/picture0.png)
 
 ### Состояния проекта
 Локальные изменения
