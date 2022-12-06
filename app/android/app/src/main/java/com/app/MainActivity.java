@@ -3,8 +3,18 @@ package com.app;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
+import android.content.Intent;
+import com.batch.android.Batch;
 
 public class MainActivity extends ReactActivity {
+	
+	@Override
+    public void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        Batch.onNewIntent(this, intent);
+}
+	
+	
 
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule

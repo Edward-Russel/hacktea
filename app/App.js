@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { Component } from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -25,6 +25,10 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Clock from './test';
+
+import { Notifications } from 'react-native-notifications';
+
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
@@ -79,7 +83,8 @@ const App: () => Node = () => {
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
-          <Section title="See Your Changes">
+         <Clock />
+         <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
           <Section title="Debug">
