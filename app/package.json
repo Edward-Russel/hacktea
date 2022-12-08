@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "AwesomeProject",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,10 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@batch.com/react-native-plugin": "^8.1.2",
     "react": "18.1.0",
-    "react-native": "0.70.6",
-    "react-native-notifications": "^4.3.3"
+    "react-native": "0.70.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
