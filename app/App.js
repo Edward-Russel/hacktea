@@ -22,7 +22,7 @@ const App = () => {
           style={styles.button}
           onPress={userSendNotification}
         >
-          <Text style={styles.text}>Уведомление 💀</Text>
+          <Text style={styles.text}>Привет Гена</Text>
           </TouchableOpacity>
       </View>
       <View style={{ flex: 3, backgroundColor: 'steelblue' }} />
