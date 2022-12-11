@@ -4,7 +4,7 @@ import { View, Text, Image, ScrollView, TextInput, TouchableOpacity, SafeAreaVie
 
 module.exports = () => {
     return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={styles.onBoardView}>
     </SafeAreaView>
     )
 }

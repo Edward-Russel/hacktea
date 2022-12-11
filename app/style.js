@@ -20,6 +20,10 @@ module.exports = {
       justifyContent: 'center',
       flexDirection: 'column',
       alignItems: 'center'
+  },
+  "onBoardView": {
+      flex: 1,
+      backgroundColor: "#0000BE"
   }
 
 }
