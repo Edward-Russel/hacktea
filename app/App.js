@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { View, Text, Image, ScrollView, TextInput, TouchableOpacity, SafeAreaView, Button, PermissionsAndroid } from 'react-native';
+
 import styles from './style'
 import WifiBlob from './wifi'
 /**
