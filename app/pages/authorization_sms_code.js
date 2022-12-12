@@ -4,7 +4,8 @@ import { View, Text, Image, ScrollView, TextInput, TouchableOpacity, SafeAreaVie
 
 module.exports = () => {
     return (
-    <SafeAreaView style={styles.onBoardView}>
+    <SafeAreaView style={styles.onBoardView}>    
+    <VectorImage source={require('../assets/onboard_back.svg')} style={styles.SvgBackground} />
     </SafeAreaView>
     )
 }
