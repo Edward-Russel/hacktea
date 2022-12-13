@@ -5,7 +5,7 @@ import app_config from "./data/config.json"
 
 
 const App = () => {
-    let starting_page = (app_config.debug ? "wifi_debug": "authorized_on_board");
+    let starting_page = (app_config.debug ? "wifi_debug": "loading_screen");
     window.pages = pages;
     [window.current_page, window.switch_page] = useState(starting_page);
     return pages[window.current_page]();
