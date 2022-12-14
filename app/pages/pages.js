@@ -7,7 +7,7 @@ import wifi_debug from './wifi_debug'
 
 
 module.exports = {
-    "main_page": mainpage,
+    "mainpage": mainpage,
     "settings": settings,
     "authorization_phone_number": authorization_phone_number,
     "authorization_sms_code": authorization_sms_code,
