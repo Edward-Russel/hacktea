@@ -1,1 +1,1 @@
-npx react-native-vector-image generate
+start "" npx react-native-vector-image generate
