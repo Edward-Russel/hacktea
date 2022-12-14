@@ -1,5 +1,5 @@
 import WifiBlob from '../wifi'
-import { View, Text, TouchableOpacity, SafeAreaView, Button, PermissionsAndroid } from 'react-native';
+import { View, Text, TouchableOpacity, SafeAreaView, Button, PermissionsAndroid, Image } from 'react-native';
 import styles from '../style'
 
 
@@ -42,11 +42,11 @@ module.exports = () => {
                 style={styles.button}
                 onPress={requestFineLocation}
               >
-                <Text style={styles.text}>Привет Гена</Text>
+                <Text style={styles.text}>Где я?</Text>
                     </TouchableOpacity>
                 </View>
                 <Button title="request permissions" onPress={requestFineLocation} />
-                <WifiBlob />
+            <WifiBlob />
             <View style={{ flex: 3, backgroundColor: 'steelblue' }} />
         </SafeAreaView>
         )
