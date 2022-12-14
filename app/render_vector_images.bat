@@ -1,0 +1,1 @@
+start "" npx react-native-vector-image generate

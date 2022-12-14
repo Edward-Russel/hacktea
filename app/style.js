@@ -20,6 +20,26 @@ module.exports = {
       justifyContent: 'center',
       flexDirection: 'column',
       alignItems: 'center'
+  },
+  "onBoardView": {
+      flex: 1,
+      flexDirection: "column",
+      backgroundColor: "#0000BE",
+      alignItems: "center",
+  },
+  "SvgBackground": {
+    position: "absolute"
+  }, 
+  "h1": {
+    fontSize: 24,
+    color: "white"
+  },
+  "h2": {
+    fontSize: 18,
+    color: "white"
+  },
+  "default-text": {
+    fontSize: 14,
+    color: "white"
   }
-
 }

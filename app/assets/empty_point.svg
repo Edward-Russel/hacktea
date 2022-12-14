@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="35.649071" id="svg7014" inkscape:version="1.2.1 (1:1.2.1+202210291243+9c6d41e410)" sodipodi:docname="empty_point.svg" version="1.1" viewBox="0 0 34.947853 35.64907" width="34.947853">
+  <defs id="defs14845">
+    <linearGradient id="linearGradient15409" inkscape:collect="always">
+      <stop id="stop15405" offset="0.74803293" style="stop-color:#000000;stop-opacity:0.25184327;"/>
+      <stop id="stop15407" offset="1" style="stop-color:#ffffff;stop-opacity:0;"/>
+    </linearGradient>
+    <radialGradient cx="48.91209" cy="10.93457" fx="48.91209" fy="10.93457" gradientTransform="matrix(-8.7792995e-8,1.1361546,-1.1361547,-6.3538932e-6,29.897296,-37.397592)" gradientUnits="userSpaceOnUse" id="radialGradient15411" inkscape:collect="always" r="15.38086" xlink:href="#linearGradient15409"><stop id="stop15405" offset="0.74803293" style="stop-color:#000000;stop-opacity:0.25184327;"/><stop id="stop15407" offset="1" style="stop-color:#ffffff;stop-opacity:0;"/></radialGradient>
+  </defs>
+  <sodipodi:namedview bordercolor="#000000" borderopacity="0.25" id="namedview14843" inkscape:current-layer="layer1" inkscape:cx="-13.897638" inkscape:cy="10.857529" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="1016" inkscape:window-maximized="1" inkscape:window-width="1846" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="3.4538244" pagecolor="#ffffff" showgrid="false"/>
+  <path d="M 17.473927,0.6989996 A 17.474655,17.474655 0 0 0 6.3524721e-8,18.172928 17.474655,17.474655 0 0 0 17.473927,35.649073 17.474655,17.474655 0 0 0 34.947854,18.172928 17.474655,17.474655 0 0 0 17.473927,0.6989996 Z" id="circle15327" style="fill:url(#radialGradient15411);fill-opacity:1;stroke-width:0.300588"/>
+  <g id="layer1" transform="translate(-24.584401,-102.1576)">
+    <circle cx="41.810902" cy="117.5391" id="path7913" r="15.3815" style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"/>
+    <ellipse cx="41.810902" cy="117.5391" id="path7917" rx="11.3678" ry="11.3455" style="fill:#1de9b6;fill-opacity:1;stroke-width:0.290772"/>
+  </g>
+</svg>
