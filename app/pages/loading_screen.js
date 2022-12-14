@@ -3,7 +3,7 @@ import { View, Text, Image, ScrollView, TextInput, TouchableOpacity, SafeAreaVie
 import user_data from "../data/user_data.json"
 
 module.exports = () => {
-    //setTimeout(()=>{window.switch_page((user_data.authorized) ? "mainpage": "authorization_phone_number")}, 1000)
+    setTimeout(()=>{window.switch_page((user_data.authorized) ? "mainpage": "authorization_phone_number")}, 1000)
     return (
     <SafeAreaView style={styles.onBoardView}>    
     <View style={{flex:1.5}} />
