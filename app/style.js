@@ -1,33 +1,12 @@
-module.exports = {
-  "button": {
-    alignItems: "center",
-    backgroundColor: '#45a5d9',
-    padding: 20,
-  },
-  "text": {
-    color: 'white',
-    fontSize: 25,
-    fontFamily: 'System',
-  },
-  "centerRowAligment":{
-      flex: 1,
-      backgroundColor:"#a22a5f",
-      flexDirection: 'row',
-      alignItems:"center"
-  },
-  "centerColumnAligment":{
-      flex: 1,
-      justifyContent: 'center',
-      flexDirection: 'column',
-      alignItems: 'center'
-  },
+import { StyleSheet } from "react-native";
+const styles = StyleSheet.create({
   "onBoardView": {
       flex: 1,
       flexDirection: "column",
       backgroundColor: "#0000BE",
       alignItems: "center",
   },
-  "SvgBackground": {
+  "background": {
     position: "absolute"
   }, 
   "h1": {
@@ -41,5 +20,27 @@ module.exports = {
   "default-text": {
     fontSize: 14,
     color: "white"
+  },
+  "input": {
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+    padding: 10,
+  },
+  "line_style": {
+    borderWidth: 0.5,
+    borderColor:'lightgrey',
+    marginBottom: 5
+  },
+  "button_submit": {
+      marginTop: '8%',
+      paddingTop: '3%',
+      paddingBottom: '3%',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      width: '75%',
+      backgroundColor: "#EB008C",
+      borderRadius: 5,
   }
-}
+})
+export default styles
