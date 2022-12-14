@@ -1,74 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="28"
-   height="28"
-   viewBox="0 0 28 28.000001"
-   version="1.1"
-   id="svg39814"
-   inkscape:version="1.2.1 (1:1.2.1+202210291243+9c6d41e410)"
-   sodipodi:docname="preloader.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview39816"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="11.231874"
-     inkscape:cx="9.9271054"
-     inkscape:cy="16.248401"
-     inkscape:window-width="1846"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs39811">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient44177">
-      <stop
-         style="stop-color:#1de9b6;stop-opacity:1;"
-         offset="0"
-         id="stop44173" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0.5"
-         id="stop44204" />
-      <stop
-         style="stop-color:#1de9b6;stop-opacity:1;"
-         offset="1"
-         id="stop44175" />
+<svg version="1.1" id="svg39814" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+  <defs id="defs39811">
+    <linearGradient id="linearGradient44177">
+      <stop style="stop-color:#1de9b6;stop-opacity:1" offset="0" id="stop44173"/>
+      <stop style="stop-color:#fff;stop-opacity:1" offset=".5" id="stop44204"/>
+      <stop style="stop-color:#1de9b6;stop-opacity:1" offset="1" id="stop44175"/>
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient44177"
-       id="linearGradient44179"
-       x1="14"
-       y1="28"
-       x2="14"
-       y2="0"
-       gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#linearGradient44177" id="linearGradient44179" x1="14" y1="28" x2="14" y2="0" gradientUnits="userSpaceOnUse"/>
   </defs>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       id="path40298"
-       style="fill:url(#linearGradient44179);stroke-width:3.29744;fill-opacity:1"
-       d="M 14 0 A 14.000001 14.000001 0 0 0 0 14 A 14.000001 14.000001 0 0 0 14 28 A 14.000001 14.000001 0 0 0 28 14 A 14.000001 14.000001 0 0 0 14 0 z M 14 4.3808595 A 9.4018002 9.6182203 0 0 1 23.402344 14 A 9.4018002 9.6182203 0 0 1 14 23.619141 A 9.4018002 9.6182203 0 0 1 4.5976563 14 A 9.4018002 9.6182203 0 0 1 14 4.3808595 z " />
+  <g id="layer1">
+    <path id="path40298" style="fill:url(#linearGradient44179);stroke-width:3.29744;fill-opacity:1" d="M14 0A14 14 0 0 0 0 14a14 14 0 0 0 14 14 14 14 0 0 0 14-14A14 14 0 0 0 14 0zm0 4.3809A9.4018 9.6182 0 0 1 23.4023 14 9.4018 9.6182 0 0 1 14 23.6191 9.4018 9.6182 0 0 1 4.5977 14 9.4018 9.6182 0 0 1 14 4.3809z"/>
   </g>
 </svg>
