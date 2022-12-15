@@ -1,13 +1,7 @@
 import styles from '../style'
-import { View, Text, Image, TouchableWithoutFeedback, SafeAreaView, Dimensions, StyleSheet, TouchableOpacity} from 'react-native';
-import {useState} from 'react';
+import { View, Text, Image, TextInput, SafeAreaView, Dimensions, StyleSheet, TouchableOpacity} from 'react-native';
 import user_data from "../data/user_data.json"
 import ImageZoom from 'react-native-image-pan-zoom';
-
-
-function show_click_position(eventParams) {
-    console.log(eventParams);
-}
 
 
 module.exports = () => {
@@ -17,12 +11,13 @@ module.exports = () => {
     const range_size = Dimensions.get('window').width/10;
     return (
     <SafeAreaView style={styles.onBoardView}>
-    <ImageZoom cropWidth={Dimensions.get('window').width} onLongPress={show_click_position}
+    <ImageZoom cropWidth={Dimensions.get('window').width}
     cropHeight={'100%'}
     minScale={1}
     style={page_style.map_container}
     imageWidth={Dimensions.get('window').width}
     imageHeight={'100%'}>
+        {(window.debug) ? debug_input(): empty()}
         <Image
         source={images["room_plan"]}
         style={[page_style.map]}
@@ -101,7 +96,20 @@ const buttons_dev = () => {
     </View>
     )
 }
-debug_mode_button = () => {
+
+function debug_input() {
+    return (
+        <View style={{position: 'absolute'}}/>
+    )
+}
+
+function empty() {
+    return (
+        <View style={{position: 'absolute'}}/>
+    )
+}
+
+const debug_mode_button = () => {
     return (
     <TouchableOpacity>
     <Image
@@ -111,6 +119,8 @@ debug_mode_button = () => {
     </TouchableOpacity>
     )
 }
+
+
 const page_style = StyleSheet.create({
 
 navigation_button: {
@@ -164,5 +174,8 @@ debug_point: {
     backgroundColor: 'rgba(0, 255, 0, 0.3)',
     justifyContent: 'center',
     alignItems: 'center'
+},
+debug_input: {
+
 }
 })

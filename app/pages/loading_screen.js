@@ -2,6 +2,7 @@ import styles from '../style'
 import { View, Text, Image, ScrollView, TextInput, TouchableOpacity, SafeAreaView, Button, PermissionsAndroid, StyleSheet} from 'react-native';
 import user_data from "../data/user_data.json"
 import LinearGradient from 'react-native-linear-gradient';
+import React from 'react';
 
 module.exports = () => {
     setTimeout(()=>{window.switch_page((user_data.authorized) ? "mainpage": "authorization_phone_number")}, 1000)

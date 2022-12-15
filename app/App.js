@@ -9,7 +9,7 @@ const App = () => {
     [current_page, window.switch_page] = useState("loading_screen");
     [window.user_pos_x, window.change_x] = useState(user_data.starting_pos_x);
     [window.user_pos_y, window.change_y] = useState(user_data.starting_pos_y);
-    return pages[window.current_page]();
+    return pages[current_page]();
 }
 
 export default App;
