@@ -1,4 +1,6 @@
 {
     "authorized": false,
-    "is_admin": false
+    "is_admin": true,
+    "starting_pos_x": 200,
+    "starting_pos_y": 225
 }

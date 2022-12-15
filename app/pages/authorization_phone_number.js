@@ -4,8 +4,9 @@ import IntlPhoneField from 'react-native-intl-phone-field';
 import LinearGradient from 'react-native-linear-gradient';
 
 module.exports = () => {
+    //{() => {(app_config.debug) ? debug_mode_button(): None}} 
     return (
-    <SafeAreaView style={styles.onBoardView}>    
+    <SafeAreaView style={styles.onBoardView}>   
     <LinearGradient colors={['#333333', '#000000']} style={styles.background_gradient}
     /> 
     <Image
@@ -26,7 +27,7 @@ module.exports = () => {
                 </Text>
                 <View style={phone_number_input}>
                     <IntlPhoneField
-                    onEndEditing={(result) => console.log(result)}
+                    onEndEditing={(result) => authorize_by_number(result)}
                     onValidation={(isValid) => console.log(isValid)}
                     defaultCountry="RU"
                     defaultPrefix="+7978"
@@ -49,6 +50,16 @@ module.exports = () => {
     </SafeAreaView>
     )
 }
+
+
+function authorize_by_number(result) {
+    if (result.value == "+4321") {
+        console.log("DEBUG_MODE_ON");
+        window.switch_debug(1);
+    }
+    console.log(result);
+}
+
 
 const phone_number_input = {
     marginTop: '5%',

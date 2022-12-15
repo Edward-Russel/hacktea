@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
 import { View, Text, TouchableOpacity, SafeAreaView, Button, AppRegistry, AppState} from 'react-native';
 import pages from "./pages/pages"
-import app_config from "./data/config.json"
+import user_data from "./data/user_data.json"
 
 
 const App = () => {
-    let starting_page = (app_config.debug ? "wifi_debug": "loading_screen");
-    window.pages = pages;
-    [window.current_page, window.switch_page] = useState(starting_page);
+    [window.debug, window.switch_debug] = useState(false);
+    [current_page, window.switch_page] = useState("loading_screen");
+    [window.user_pos_x, window.change_x] = useState(user_data.starting_pos_x);
+    [window.user_pos_y, window.change_y] = useState(user_data.starting_pos_y);
     return pages[window.current_page]();
 }
 
